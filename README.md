@@ -12,7 +12,8 @@ Finally collect the complete sets without spending any money. Just git clone the
 
 ## Todo
 
-- [ ] Scrape The various themed folders
+- [x] Scrape The various themed folders
+- [ ] Scrape the on demand
 - [ ] I dont really want to scrape the backs, they are all named funny and not consistent.
 
 ## Contributing
