@@ -3,14 +3,13 @@ import os
 
 # define the base URL for the images
 base_url = "https://www.youknowthewebsite.com/gallery/"
-
 # define the total number of stickers in each series
-num_stickers = [5, 9, 9, 9, 9, 9, 9, 4, 4, 9, 9]
-prefixes = ["pres", "pastime", "icon", "invent", "devolved", "rug", "patriot", "comic", "horror", "event", "summer"]
+num_stickers = [20 , 40, 20, 20, 42, 20]
+prefixes = ["alternative", "classicrock", "metal", "newwave", "pop", "rap"]
 counter = 1
 # iterate through each series
-for i in range(1, 12):
-    prefix = "pie"
+for i in range(1, 7):
+    prefix = "bands"
     # generate the series folder name and file name prefix
     series_folder = prefix
     file_prefix = prefix + "_" + prefixes[i-1] + "_"
